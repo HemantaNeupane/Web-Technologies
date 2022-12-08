@@ -13,25 +13,49 @@
     <meta property="og:image" content="Myphoto.jpg" />
     <meta name="robots" content="nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #info {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        #info td, #info th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        
+        #info th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color:rgba(0, 0, 0, 0.208);
+          color: white;
+        }
+        </style>
     <title>My Portfolio</title>
 
 </head>
 <body>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#contacts"> Contacts</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#work">Work Experience</a>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contacts"> Contacts</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#work">Work Experience</a></li>
+        </ul>
+        
+        
     </nav>
 
     <hr style="height:2px ;background-color:black;">
 
     <section role="about">
         <h1>About Me</h1>
-        <img width="200px" alt="Hemanta Neupane" src="Myphoto.jpg">
+        <img class="ph" alt="Hemanta Neupane" src="Myphoto.jpg">
         <p>
-            <h3>Hello Everyone,</h3><br>
+            Hello Everyone,<br>
             I am Hemanta Neupane from Jorpati, Kathmandu.<br>This is my first webpage. I have kept my information here<br>
         </p>
     </section>
@@ -63,7 +87,7 @@
 
     <sectoin role="work" id="work">
         <h2>My Work Experience:</h2>
-        <table border="1px" cellspacing="8px">
+        <table id="info">
             <tbody>
                 <tr>
                     <th>Date</th>
