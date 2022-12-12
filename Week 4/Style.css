@@ -1,0 +1,16 @@
+body{
+    font-size: 1.5em;
+    color: rgb(29, 27, 26);
+}
+h1{
+    color: rgba(36, 36, 36, 0.999);
+    font-family: fantasy;
+}
+.FirstP {
+    font-family: cursive;
+
+}
+.SecondP{
+    font-variant: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
