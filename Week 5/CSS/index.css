@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+*{
+    font-family: 'Unbounded', cursive;
+    font-size: 1.02em;
+    padding: auto;
+    color:rgb(224, 111, 145)
+
+}
+#heading1{
+    padding:auto;
+    font-size: 1.5em;
+}
+/* #box1{
+    border-style: dotted;
+    border-spacing: 50%;
+    width: fit-content;
+    border-width: 0.3em;
+    background-color: cadetblue;
+    border-radius: 4%;
+}
+#box2{
+    border-style: dashed;
+    border-width: 0.3em;
+    background-color: cornflowerblue;
+    border-radius: 4%;
+} */
+
+body{
+    /* background-image: url(background.jpg); */
+    background:linear-gradient(to right,rgb(32, 31, 31),rgb(83, 88, 83),rgb(186, 186, 206))};
