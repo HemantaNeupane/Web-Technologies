@@ -1,0 +1,48 @@
+
+.container{
+    justify-content: space-evenly;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.p1{
+    height: auto;
+    width: 200px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px
+
+}
+
+.p2{
+    height: auto;
+    width: 200px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+}
+
+.p3{
+    height: auto;
+    width: 200px;
+    background-color: cornflowerblue;
+    color:rgb(0, 0, 0);
+    font-size: large;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+}

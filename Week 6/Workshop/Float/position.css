@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(73, 67, 10);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(255, 254, 253) ;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(50, 50, 90);
+    letter-spacing: 0.12em;
+    position: fixed;
+    top: 30px;
+    
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px blue;
+    letter-spacing: 0.1em;
+    position:relative;
+    top: auto;
+    
+}

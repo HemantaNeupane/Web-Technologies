@@ -1,0 +1,71 @@
+  
+  
+  /* Laptops Screen */
+@media screen and (min-width:768px) and (max-width:1370px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    p{
+        font-family: fantasy;
+        letter-spacing: 0.2em;
+        text-shadow: 0.2em;
+        color: rgb(120, 110, 90);
+    
+    }
+    
+
+}
+/* Tablets Screen */
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-color: aquamarine;}
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    p{
+        font-family: fantasy;
+        letter-spacing: 0.2em;
+        text-shadow: 0.2em;
+        color: rgb(120, 110, 90);
+    
+    }
+
+
+/* Mobile Screen */
+@media screen and (min-width:320px) and (max-width:480px){
+    body{
+        background-color: chartreuse;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    p{
+        font-family: fantasy;
+        letter-spacing: 0.2em;
+        text-shadow: 0.2em;
+        color: rgb(110, 110, 200);
+    
+    }
+
+}
+/* Desktop Screen */
+@media screen and (min-width:1025px) and (max-width:1200px){
+    body{
+        background-color: yellowgreen;
+    }
+    img{
+        max-width: 50%;
+        height: auto;
+    }
+    p{
+        font-family: fantasy;
+        letter-spacing: 0.2em;
+        text-shadow: 0.2em;
+        color: rgb(90, 90, 180);
+    }
+
+}
