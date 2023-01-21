@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(91, 98, 8);
+}
+#grid1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+    border: 2px solid green;
+    padding: 10px;
+    background-color: rgb(213, 184, 148);
+}
+#grid2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 5px;
+    border: 2px solid green;
+    padding: 10px;
+    background-color: rgb(213, 184, 148);
+}
+.gi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    background-color: rgb(47, 90, 199);
+}
